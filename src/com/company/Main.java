@@ -1,7 +1,11 @@
 /*
 Author: Narrara
 Project: Lab 14 - Java Calculator with Unit Testing and Java Docs
+Purpose Details:  
 Course: IST 242 - 001
+Date Developed: 4/15/2019
+Last Date Changed: 4/15/2019
+Rev: 1
  */
 
 package com.company;
@@ -10,7 +14,7 @@ import java.util.Scanner;
 
 
 /**
- * @author          Narrara Moura
+ * @author          Narrara 
  * @version         1.0
  * @since           2019-04-15
  */
