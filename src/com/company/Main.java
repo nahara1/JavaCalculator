@@ -1,6 +1,6 @@
 /*
 Author: Narrara
-Description: Java Addition Calculator
+Project: Lab 14 - Java Calculator with Unit Testing and Java Docs
 Course: IST 242 - 001
  */
 
@@ -9,9 +9,10 @@ package com.company;
 import java.util.Scanner;
 
 
-
 /**
- * @author Narrara
+ * @author          Narrara Moura
+ * @version         1.0
+ * @since           2019-04-15
  */
 
 
@@ -25,7 +26,7 @@ public class Main {
         int input = scnr.nextInt();
         int input2 = scnr.nextInt();
         System.out.println(input + " + " + input2 + " = " + addition(input, input2));
-        
+
 
     }
 
