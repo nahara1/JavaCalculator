@@ -1,7 +1,7 @@
 /*
 Author: Narrara
 Project: Lab 14 - Java Calculator with Unit Testing and Java Docs
-Purpose Details:  
+Purpose Details:  A Java code to perform calculations implementing Java docs and JUnit test
 Course: IST 242 - 001
 Date Developed: 4/15/2019
 Last Date Changed: 4/20/2019
@@ -36,7 +36,7 @@ public class Main {
         System.out.println("Enter another integer number: ");
         int input2 = scnr.nextInt();
 
-        System.out.println("1 - Addition\n 1 - Subtraction\n 3 - Multiplication\n 4 - Division\n Q - Quit");
+        System.out.println("1 - Addition\n 2 - Subtraction\n 3 - Multiplication\n 4 - Division\n Q - Quit");
         String input3 = scnr.next();
         while (!input3.equals("Q")) {
             switch (input3) {
