@@ -16,7 +16,6 @@ public class MainTest {
     }
 
     @Test
-
         public void additionUnitTestFalse () {
             try {
             assertFalse(Main.addition(5, 5) == 7);
@@ -57,7 +56,6 @@ public class MainTest {
     }
 
     @Test
-
     public void multiplicationUnitTestFalse () {
         try {
             assertFalse(Main.multiplication(10, 5) == 7);
@@ -67,6 +65,7 @@ public class MainTest {
         }
 
     }
+    
     @Test
     public void divisionUnitTestTrue() {
         try {
@@ -77,7 +76,6 @@ public class MainTest {
     }
 
     @Test
-
     public void divisionUnitTestFalse () {
         try {
             assertFalse(Main.division(10, 5) == 5);
@@ -88,4 +86,3 @@ public class MainTest {
 
     }
 }
-
