@@ -22,6 +22,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * @param args
+     */
+
     public static void main(String[] args) {
         // write your code here
         Scanner scnr = new Scanner(System.in);
@@ -52,31 +56,47 @@ public class Main {
         }
     }
 
-        /**
-         * addition method performs addition
-         * @param num1 an integer number
-         * @param num2 an integer number
-         * @return an integer number
-         */
-
-
+    /**
+     * addition method performs addition
+     * @param num1 an integer number
+     * @param num2 an integer number
+     * @return the sum of num1 and num2
+     */
 
     public static int addition(int num1, int num2) {
         return num1+num2;
     }
 
+    /**
+     * subtraction method performs subtraction
+     * @param num1 an integer number
+     * @param num2 an integer number
+     * @return the difference of num1 and num2
+     */
+
     public static int subtraction(int num1, int num2) {
         return num1-num2;
     }
+
+    /**
+     * multiplication method performs multiplication
+     * @param num1 an integer number
+     * @param num2 an integer number
+     * @return the product of num1 and num2
+     */
 
     public static int multiplication(int num1, int num2) {
         return num1*num2;
     }
 
+    /**
+     * division method performs division
+     * @param num1 an integer number
+     * @param num2 an integer number
+     * @return the quotient of num1 and num2
+     */
+
     public static int division(int num1, int num2) {
         return num1/num2;
     }
-
-
-
 }
